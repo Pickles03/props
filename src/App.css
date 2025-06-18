@@ -40,3 +40,35 @@
 .read-the-docs {
   color: #888;
 }
+
+
+.task-item {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.task-text:hover {
+  cursor: pointer;
+}
+
+.add-task-form {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
